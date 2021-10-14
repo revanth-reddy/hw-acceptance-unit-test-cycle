@@ -27,7 +27,7 @@ Movie
 
 2 deprecation warnings total
 
-Finished in 0.2344 seconds (files took 1.61 seconds to load)
+Finished in 0.16994 seconds (files took 1.65 seconds to load)
 16 examples, 0 failures
 
-Coverage report generated for Cucumber Features, RSpec to /home/ec2-user/environment/h/hw-acceptance-unit-test-cycle/rottenpotatoes/coverage. 96 / 98 LOC (97.96%) covered.
+Coverage report generated for Cucumber Features, RSpec to /home/ec2-user/environment/h/hw-acceptance-unit-test-cycle/rottenpotatoes/coverage. 74 / 80 LOC (92.5%) covered.
