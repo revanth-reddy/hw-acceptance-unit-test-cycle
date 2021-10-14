@@ -7,7 +7,8 @@ class MoviesController < ApplicationController
   end
 
   def index
-    # clear session on load
+    # reusing the code from hw3
+    # clearing session on load
     if request.env['PATH_INFO'] == '/'
       session.clear
     end

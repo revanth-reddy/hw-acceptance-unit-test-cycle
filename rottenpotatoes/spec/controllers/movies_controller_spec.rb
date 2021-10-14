@@ -34,10 +34,10 @@ describe MoviesController do
   
   describe 'show similar movies' do
     let(:movie) { FactoryGirl.create(:movie) }
-    let(:movie1) { FactoryGirl.create(:movie, id: 7)}
+    let(:movie1) { FactoryGirl.create(:movie, id: 5)}
     let(:movie2) { FactoryGirl.create(:movie, id: 4)}
-    let(:movie3) { FactoryGirl.create(:movie, id: 3)}
-    let(:movie4) { FactoryGirl.create(:movie, id: 8, director: '')}
+    let(:movie3) { FactoryGirl.create(:movie, id: 11)}
+    let(:movie4) { FactoryGirl.create(:movie, id: 2, director: '')}
     
     it 'should call Movie.get_similar_movies' do
       movie

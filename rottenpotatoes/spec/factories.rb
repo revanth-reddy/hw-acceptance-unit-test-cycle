@@ -1,10 +1,10 @@
 FactoryGirl.define do
     factory :movie do
-      title         "Test Title"
-      rating        "R"
+      title         "Test Movie"
+      rating        "PG"
       description   "Test description"
-      release_date  "2020-02-03"
+      release_date  "2021-10-15"
       director      "Test Director"
-      id            3232
+      id            1
     end
 end
